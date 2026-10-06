@@ -1,0 +1,40 @@
+nav{
+    background-color: green;
+    padding: 15px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd; 
+    display: flex;
+    gap: 20px;   
+}
+nav a {
+  padding: 0.75rem 1rem;
+}
+nav {
+  box-shadow: inset 0 0 0 2px #ddd;
+}
+
+nav a:not(:last-child) {
+  border-right: 1px solid #ddd;
+}
+nav>ul>li {
+    list-style-type: none;
+}
+li{
+    display: inline-block
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: impact;
+    padding: 3px;
+    border: 3px solid black;
+    padding: 0.5rem 1rem;
+
+
+
+}
+
+
+
+
+
